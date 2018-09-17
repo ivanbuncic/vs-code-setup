@@ -1,13 +1,11 @@
 # vs-code-setup
 Best VS Code settings 'eva
 
-
 {
     "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Oceanic Next",
-    "editor.fontSize": 21,
-    "editor.tabSize": 4,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Night Owl",
+    "editor.tabSize": 2,
     "editor.insertSpaces": true,
     "editor.fontLigatures": true,
     "editor.minimap.enabled": true,
@@ -27,14 +25,19 @@ Best VS Code settings 'eva
               "scope": "variable.parameter",
               "settings": {
                 "fontStyle": "bold",
-                "foreground": "#f81d54"
+                "foreground": "#dd0a49"
               }
             }],
             "functions": {
               "fontStyle": "bold italic underline",
-              "foreground": "#efcc36"
+               "foreground": "#efcc36"
             }
           },
           "terminal.integrated.rendererType": "dom",
+          "files.associations": {
+            "*.vue": "vue"
+          },
+          "editor.fontSize": 19,
+          "terminal.integrated.cursorStyle": "line",
           
         }
