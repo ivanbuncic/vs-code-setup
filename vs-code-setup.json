@@ -2,42 +2,51 @@
 Best VS Code settings 'eva
 
 {
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Night Owl",
-    "editor.tabSize": 2,
-    "editor.insertSpaces": true,
-    "editor.fontLigatures": true,
-    "editor.minimap.enabled": true,
-    "editor.wordWrap": "on",
-    "terminal.integrated.fontSize": 18,
-    "editor.fontFamily": "'Fira Code'",
-    "workbench.colorCustomizations": {
-            "activityBar.background": "#BADA55",
-            "activityBarBadge.foreground": "#FFFFFF",
-            "activityBarBadge.background": "#000000",
-            "activityBar.foreground": "#000000"
-        },
-        "editor.tokenColorCustomizations": {
-            "comments": "#b3b1b1",
-            "types": "#f66",
-            "textMateRules": [{
-              "scope": "variable.parameter",
-              "settings": {
-                "fontStyle": "bold",
-                "foreground": "#dd0a49"
-              }
-            }],
-            "functions": {
-              "fontStyle": "bold italic underline",
-               "foreground": "#efcc36"
-            }
-          },
-          "terminal.integrated.rendererType": "dom",
-          "files.associations": {
-            "*.vue": "vue"
-          },
-          "editor.fontSize": 19,
-          "terminal.integrated.cursorStyle": "line",
-          
-        }
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Night Owl",
+  "editor.fontSize": 17,
+  "editor.lineHeight": 34,
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontFamily": "'Fira Code Light'",
+  "vetur.validation.template": false,
+  "vetur.completion.useScaffoldSnippets": false,
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "javescript": "html"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue": "html",
+    "twig": "html",
+    "php": "php"
+  },
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "editor.cursorBlinking": "smooth",
+  "git.enableSmartCommit": true,
+  "terminal.integrated.rendererType": "dom",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "php.executablePath": "/usr/bin/php"
+}
